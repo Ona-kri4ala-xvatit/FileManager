@@ -17,17 +17,5 @@ int main()
 	FileManager file_manager;
 	file_manager.explore_directory();
 
-	//auto result = create_directory("test"); //создать папку
-
-	/*bool makeDir(const char* dir)
-	{
-		if (exists(dir))
-			return is_directory(status(dir));
-		else
-			return create_directories(dir);
-	}*/
-
-
-
 	return 0;
 }
