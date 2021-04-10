@@ -1,0 +1,11 @@
+ 
+  Console commands:
+       - To iterate through the directory, enter the name of the folders;
+   \   - return to root directory;
+  menu - open menu to use the functions of the program;
+  help - open help file (with console commands);
+  open - if you need to open a folder or file, 
+         use command "open" > next enter the name of the folder or file 
+         (for file need a mask), press enter;
+         Example: C:\Windows,  C:\Windows\explorer.exe
+  exit - close program;

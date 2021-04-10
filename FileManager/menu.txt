@@ -1,0 +1,14 @@
+  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ |                                 |
+ |   Press to activate             |
+ |                                 |
+ |   0 - Help                      |
+ |   1 - Get Directory             |
+ |   2 - Get Hard Drive Info       |
+ |   3 - Open My Computer          |
+ |   4 - Open Notepad              |
+ |   5 - Open File or Directory    |
+ |   6 - Rename File or Directory  |
+ |   7 - Delete File or Directory  |
+ |   Esc - Exit                    |
+ |_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|
