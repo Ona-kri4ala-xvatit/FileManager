@@ -73,6 +73,19 @@ void FunctionsOfMenu::OpenFolderOrFile()
 	ShellExecute(f, NULL, temp, NULL, NULL, SW_SHOWNORMAL);
 }
 
+void FunctionsOfMenu::Create_Directory()
+{
+	std::string dir_path;
+	std::cout << std::endl << " Enter full path (Example: C:\\Windows, C:\\Users, C:\\Program Files): ";
+	std::getline(std::cin, dir_path);
+	path dir(dir_path);
+	if (create_directory(dir))
+	{
+		std::cout << " Success" << std::endl;
+		Sleep(3000);
+	}
+}
+
 void FunctionsOfMenu::RenameFile()
 {
 	std::cout << std::endl << " Enter file or folder name (with full path and mask for file): ";
@@ -168,6 +181,12 @@ void FunctionsOfMenu::ShowMenu()
 		case 55: //7
 		{
 			Delete_File();
+			break;
+		}
+
+		case 56: //8
+		{
+			Create_Directory();
 			break;
 		}
 

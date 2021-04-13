@@ -15,6 +15,7 @@ public:
 	static void OpenMyComp();
 	static void OpenNotepad();
 	static void OpenFolderOrFile();
+	static void Create_Directory();
 	static void RenameFile();
 	static void Delete_File();
 	static void ShowMenu();

@@ -10,5 +10,6 @@
  |   5 - Open File or Directory    |
  |   6 - Rename File or Directory  |
  |   7 - Delete File or Directory  |
+ |   8 - Create Directory          |
  |   Esc - Exit                    |
  |_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|
