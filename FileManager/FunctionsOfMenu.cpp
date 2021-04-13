@@ -3,11 +3,10 @@
 
 void FunctionsOfMenu::GetHardDriveInfo()
 {
-	LPCTSTR p = L"C:\\";
-	ULARGE_INTEGER FreeBytesToCaller, TotalBytes, FreeBytes;
-	GetDiskFreeSpaceEx(p, &FreeBytesToCaller, &TotalBytes, &FreeBytes);
-	std::cout << std::endl << " Total:\t" << TotalBytes.QuadPart / 1024 / 1024 / 1024 << " gigabyte" << std::endl;
-	std::cout << " Free:\t" << FreeBytes.QuadPart / 1024 / 1024 / 1024 << " gigabyte" << std::endl << std::endl;
+	space_info _space = space("C:\\");
+	std::cout << " Total size of the filesystem\t" << _space.capacity << " (in bytes) / " << _space.capacity / 1024 / 1024 / 1024 << " (in gb)" << std::endl;
+	std::cout << " Free space\t" << _space.free << " (in bytes) / " << _space.free / 1024 / 1024 / 1024 << " (in gb)" << std::endl << std::endl;
+
 	system("dir C:\\");
 }
 
